@@ -1,0 +1,33 @@
+# Day 01 – Intro to React
+
+July 2, 2025
+
+## What I Learned
+
+- **What React Is**: A JavaScript library for building user interfaces (especially SPAs)
+- **Why React is Awesome**: Fast, component-based, and great for dynamic UIs
+- **JSX**: A syntax extension that lets you write HTML inside JavaScript—it makes building interfaces feel intuitive
+- **How React Works**:
+  - Uses a **virtual DOM** for efficient re-rendering
+  - Renders **components** which can manage their own data/state
+  - JSX is transpiled into `React.createElement()` under the hood
+
+## Aha Moments
+
+- I finally understand that React isn't a framework like Angular—it's focused just on the view/UI part.
+- JSX isn’t HTML—it's JavaScript with HTML-like syntax!
+
+## Still Fuzzy
+
+- What happens behind the scenes when React renders something
+- How state and props are used together—saving that for later lessons
+
+## Practice & Notes
+
+Built a simple “Hello World” React component in CodeSandbox.  
+It felt weird at first writing HTML inside JS, but it's starting to click.
+
+```jsx
+function App() {
+  return <h1>Hello World!</h1>;
+}
